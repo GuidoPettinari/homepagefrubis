@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* CSS Document  */
+/* Project name: TP Bootstrap */
+/* File name: styles.css */
+/* Description: Hoja de estilos global */
+/* Creation date: ESCRIBIR-EL-MES de 2016 */
+/* Author: MI-NOMBRE MI-APELLIDO */
+/* Author's eMail: MI-EMAIL@SERVER.com */
+/********** FONTS (Google-fonts) **********/
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+body {
+  font-family: "Roboto Slab";
+  margin: 0; }
+
+figure {
+  margin: 0;
+  line-height: 0; }
+
+a {
+  outline: none !important;
+  color: inherit !important; }
+
+/*************************************/
+/*=========     GLOBAL     =========*/
+/***********************************/
+body {
+  background-color: #ececec; }
+
+/*************************************/
+/*=========     HEADER     =========*/
+/***********************************/
+.navbar-default {
+  background-color: #00f1c6;
+  border: none;
+  margin: 0; }
+  .navbar-default img {
+    margin-top: 10px; }
+
+/*************************************/
+/*=========     BANNER     =========*/
+/***********************************/
+#News {
+  height: 500px; }
+  #News h4 {
+    font: 400;
+    font-size: 40px;
+    line-height: 50px;
+    font-family: "Kaushan Script";
+    font-weight: bold;
+    margin-bottom: 25px;
+    background-color: rgba(34, 189, 2, 0.82);
+    color: white;
+    padding-left: 15px;
+    width: 100%;
+    margin-top: -10px; }
+
+/***************************************/
+/*=========     HERRAMIENTAS     =========*/
+/*************************************/
+#Herramientas {
+  margin: 0;
+  height: 200px; }
+  #Herramientas h4 {
+    font-size: 40px;
+    text-align: right;
+    margin-right: 0;
+    background-color: #0069cb;
+    color: white;
+    line-height: 50px;
+    font-weight: bold;
+    font-family: "Indie Flower";
+    padding-right: 15px;
+    margin-top: -10px; }
+  #Herramientas li {
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    background-color: #00a778; }
+  #Herramientas li a {
+    text-transform: uppercase;
+    font-family: "Indie Flower"; }
+  #Herramientas .sugerencias {
+    text-align: center; }
+
+/****************************************/
+/*========= CUMPLEANOS =========*/
+/**************************************/
+#cumpleanos {
+  margin-top: 70px;
+  height: 600px; }
+  #cumpleanos h4 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    background-color: #37009d;
+    color: white;
+    height: 50px;
+    text-align: right;
+    line-height: 50px;
+    padding-right: 20px;
+    font-family: "Montserrat";
+    margin-top: -10px; }
+
+/**************************************/
+/*=========     CUMPLEA├æOS  =========*/
+/************************************/
+/************************************/
+/*=========     FOOTER     =========*/
+/************************************/
+/******************************************/
+/*=========     MEDIA-QUERIES    =========*/
+/******************************************/
+
+/*# sourceMappingURL=styles.css.map */
